@@ -33,6 +33,7 @@ public class User {
     private List<Coupon> coupons;
 
 
+
     @OneToMany(
             fetch = FetchType.LAZY,
             mappedBy = "user",

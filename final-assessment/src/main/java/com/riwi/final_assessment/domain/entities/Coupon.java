@@ -17,7 +17,7 @@ public class Coupon {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private String id;
+    private Long id;
 
     @Column(nullable = false)
     private Boolean status;
