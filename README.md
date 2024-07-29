@@ -59,3 +59,7 @@ DER
 Open your browser and go to: 
     ```bash
     http://localhost:8080/swagger-ui/index.html
+
+### Management:
+**Click Up and GitHub Project**
+https://app.clickup.com/9013367720/v/li/901304801857
