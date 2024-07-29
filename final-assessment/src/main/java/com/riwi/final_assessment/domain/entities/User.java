@@ -24,12 +24,12 @@ public class User {
 
     private String phone;
 
-    /*@OneToMany(
+    @OneToMany(
             fetch = FetchType.LAZY,
-            mappedBy = "couponId",
+            mappedBy = "user",
             cascade = CascadeType.ALL,
             orphanRemoval = false
     )
-    private List<Coupon> couponId;*/
+    private List<Coupon> coupons;
 
 }
