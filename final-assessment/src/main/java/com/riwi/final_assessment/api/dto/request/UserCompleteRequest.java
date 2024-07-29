@@ -21,4 +21,5 @@ public class UserCompleteRequest extends UserBasicRequest{
 
     @Size(max = 43)
     private String name;
+    
 }

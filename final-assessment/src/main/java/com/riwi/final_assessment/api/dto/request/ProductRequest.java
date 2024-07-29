@@ -21,9 +21,9 @@ public class ProductRequest {
     @NotBlank(message = "Name is required") @Size(min = 0, max = 40  )
     private String name;
 
-    @NotNull
+    @NotNull(message = "Category is required")
     private Category category;
 
-    @NotNull
+    @NotNull(message = "Price is required")
     private Integer price;
 }
