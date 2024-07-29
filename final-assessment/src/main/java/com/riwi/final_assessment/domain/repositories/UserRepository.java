@@ -7,5 +7,9 @@ import com.riwi.final_assessment.domain.entities.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+
     
 }
+
+
+

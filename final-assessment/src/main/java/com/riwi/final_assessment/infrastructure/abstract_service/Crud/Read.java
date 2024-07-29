@@ -1,4 +1,4 @@
-package com.riwi.final_assessment.infrastructure.abstract_service;
+package com.riwi.final_assessment.infrastructure.abstract_service.Crud;
 
 import org.springframework.data.domain.Page;
 

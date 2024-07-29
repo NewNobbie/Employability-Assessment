@@ -17,12 +17,11 @@ import lombok.Setter;
 public class CouponRequest {
 
     @NotNull(message = "Status is required")
-    private Boolean Status;
+    private Boolean status;
     @NotNull(message = "Discount is required")
-    private Integer Discount_Porcent;
+    private Integer discount_porcent;
     @NotNull(message = "Expiration date is required")
-    private LocalDateTime Expiration_Date;
-    @NotNull(message = "Product id is required")
-    private Long product_id;
+    private LocalDateTime expiration_date;
+
 
 }

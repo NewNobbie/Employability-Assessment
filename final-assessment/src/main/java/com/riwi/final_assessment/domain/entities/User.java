@@ -32,4 +32,14 @@ public class User {
     )
     private List<Coupon> coupons;
 
+
+
+    @OneToMany(
+            fetch = FetchType.LAZY,
+            mappedBy = "user",
+            cascade = CascadeType.ALL,
+            orphanRemoval = false
+    )
+    private List<CouponHistory> couponHistories;
+
 }
