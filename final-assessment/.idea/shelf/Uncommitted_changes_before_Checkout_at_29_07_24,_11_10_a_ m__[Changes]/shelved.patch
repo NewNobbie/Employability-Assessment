@@ -1,0 +1,40 @@
+Index: ../.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"6467de2e-c347-4e06-8d77-18a31ea44129\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"2jvSaoUOAXgFTxJq0ab51i4tvAF\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Docker.final-assessment/compose.yaml.mysql: Compose Deployment.executor\": \"Run\",\n    \"Docker.final-assessment/compose.yaml: Compose Deployment.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"task-003-coupon-entity\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/home/riwip3-038/Pictures/Employability-Assessment\"\n  }\n}]]></component>\n  <component name=\"RunManager\" selected=\"Docker.final-assessment/compose.yaml: Compose Deployment\">\n    <configuration default=\"true\" type=\"docker-deploy\" factoryName=\"docker-compose.yml\" temporary=\"true\">\n      <deployment type=\"docker-compose.yml\">\n        <settings />\n      </deployment>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"final-assessment/compose.yaml: Compose Deployment\" type=\"docker-deploy\" factoryName=\"docker-compose.yml\" temporary=\"true\" server-name=\"Docker\">\n      <deployment type=\"docker-compose.yml\">\n        <settings>\n          <option name=\"sourceFilePath\" value=\"final-assessment/compose.yaml\" />\n        </settings>\n      </deployment>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"final-assessment/compose.yaml.mysql: Compose Deployment\" type=\"docker-deploy\" factoryName=\"docker-compose.yml\" temporary=\"true\" server-name=\"Docker\">\n      <deployment type=\"docker-compose.yml\">\n        <settings>\n          <option name=\"services\">\n            <list>\n              <option value=\"mysql\" />\n            </list>\n          </option>\n          <option name=\"sourceFilePath\" value=\"final-assessment/compose.yaml\" />\n        </settings>\n      </deployment>\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Docker.final-assessment/compose.yaml: Compose Deployment\" />\n        <item itemvalue=\"Docker.final-assessment/compose.yaml.mysql: Compose Deployment\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"6467de2e-c347-4e06-8d77-18a31ea44129\" name=\"Changes\" comment=\"\" />\n      <created>1722266123631</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1722266123631</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../.idea/workspace.xml b/../.idea/workspace.xml
+--- a/../.idea/workspace.xml	(revision d92dd226136ca16eaea20cdde60307b3da65992b)
++++ b/../.idea/workspace.xml	(date 1722269389547)
+@@ -4,7 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6467de2e-c347-4e06-8d77-18a31ea44129" name="Changes" comment="" />
++    <list default="true" id="6467de2e-c347-4e06-8d77-18a31ea44129" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -40,7 +42,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "git-widget-placeholder": "task-003-coupon-entity",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "/home/riwip3-038/Pictures/Employability-Assessment"
++    "last_opened_file_path": "/home/riwip3-038/Pictures/Employability-Assessment/final-assessment"
+   }
+ }]]></component>
+   <component name="RunManager" selected="Docker.final-assessment/compose.yaml: Compose Deployment">
+@@ -75,6 +77,9 @@
+       <list>
+         <item itemvalue="Docker.final-assessment/compose.yaml: Compose Deployment" />
+         <item itemvalue="Docker.final-assessment/compose.yaml.mysql: Compose Deployment" />
++        <item itemvalue="Docker.final-assessment/compose.yaml: Compose Deployment" />
++        <item itemvalue="Docker.final-assessment/compose.yaml.mysql: Compose Deployment" />
++        <item itemvalue="Docker.final-assessment/compose.yaml: Compose Deployment" />
+       </list>
+     </recent_temporary>
+   </component>
