@@ -31,5 +31,10 @@ public class Coupon {
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
 
-
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(
+            name = "couponHistory_id",
+            referencedColumnName = "id"
+    )
+    private CouponHistory couponHistory;
 }

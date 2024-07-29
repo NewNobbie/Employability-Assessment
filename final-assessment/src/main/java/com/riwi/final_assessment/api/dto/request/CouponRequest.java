@@ -22,7 +22,6 @@ public class CouponRequest {
     private Integer Discount_Porcent;
     @NotNull(message = "Expiration date is required")
     private LocalDateTime Expiration_Date;
-    @NotNull(message = "Product id is required")
-    private Long product_id;
+
 
 }
