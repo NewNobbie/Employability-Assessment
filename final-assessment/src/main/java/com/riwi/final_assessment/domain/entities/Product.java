@@ -21,6 +21,8 @@ public class Product {
     @Column(length = 100, nullable = false)
     private String category;
 
+    private Integer price;
+
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(
             name = "coupon_id",
