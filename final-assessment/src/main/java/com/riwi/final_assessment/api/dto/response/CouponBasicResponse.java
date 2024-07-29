@@ -15,9 +15,9 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 public class CouponBasicResponse {
 
-    private String id;
-    private Boolean Status;
-    private Integer Discount_Porcent;
-    private LocalDateTime Expiration_Date;
+    private Long id;
+    private Boolean status;
+    private Integer discount_porcent;
+    private LocalDateTime expiration_date;
 
 }

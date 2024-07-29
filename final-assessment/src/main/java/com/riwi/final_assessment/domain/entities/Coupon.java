@@ -5,6 +5,7 @@ import jakarta.validation.constraints.FutureOrPresent;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity(name = "coupon")
 @Setter
@@ -31,10 +32,8 @@ public class Coupon {
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
 
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(
-            name = "couponHistory_id",
-            referencedColumnName = "id"
-    )
-    private CouponHistory couponHistory;
+    @OneToMany(mappedBy = "coupon", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<CouponHistory> couponHistories;
+
+
 }

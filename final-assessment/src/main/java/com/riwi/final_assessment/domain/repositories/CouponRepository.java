@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.riwi.final_assessment.domain.entities.Coupon;
 
 @Repository
-public interface CouponRepository extends JpaRepository<Coupon, String> {
+public interface CouponRepository extends JpaRepository<Coupon, Long> {
     
 }
