@@ -5,6 +5,7 @@ import jakarta.validation.constraints.FutureOrPresent;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity(name = "coupon")
@@ -16,17 +17,17 @@ import java.util.List;
 public class Coupon {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(nullable = false)
     private Boolean status;
 
     @Column(nullable = false)
-    private Integer discount_percent;
+    private Integer discount_porcent;
 
     @FutureOrPresent
-    private LocalDate date;
+    private LocalDateTime expiration_date;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
@@ -34,6 +35,4 @@ public class Coupon {
 
     @OneToMany(mappedBy = "coupon", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<CouponHistory> couponHistories;
-
-
 }
