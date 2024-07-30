@@ -1,6 +1,5 @@
 package com.riwi.final_assessment.domain.entities;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -33,15 +32,14 @@ public class User {
     )
     private List<Coupon> coupons;
 
-    @JsonManagedReference
+
+
     @OneToMany(
             fetch = FetchType.LAZY,
             mappedBy = "user",
             cascade = CascadeType.ALL,
             orphanRemoval = false
     )
-    private List<CouponHistory> couponHistoryList;
-
-
+    private List<CouponHistory> couponHistories;
 
 }
