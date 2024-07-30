@@ -28,7 +28,7 @@ public class User {
             fetch = FetchType.LAZY,
             mappedBy = "user",
             cascade = CascadeType.ALL,
-            orphanRemoval = false
+            orphanRemoval = true
     )
     private List<Coupon> coupons;
 
@@ -38,7 +38,7 @@ public class User {
             fetch = FetchType.LAZY,
             mappedBy = "user",
             cascade = CascadeType.ALL,
-            orphanRemoval = false
+            orphanRemoval = true
     )
     private List<CouponHistory> couponHistories;
 

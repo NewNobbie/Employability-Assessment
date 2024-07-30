@@ -23,11 +23,8 @@ public class Product {
 
     private Integer price;
 
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(
-            name = "coupon_id",
-            referencedColumnName = "id"
-    )
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "coupon_id", referencedColumnName = "id")
     private Coupon coupon;
 
 }

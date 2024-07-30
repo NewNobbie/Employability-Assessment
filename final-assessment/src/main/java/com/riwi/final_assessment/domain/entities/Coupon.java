@@ -24,15 +24,18 @@ public class Coupon {
     private Boolean status;
 
     @Column(nullable = false)
-    private Integer discount_porcent;
+    private Integer discountPorcent;
 
     @FutureOrPresent
-    private LocalDateTime expiration_date;
+    private LocalDateTime expirationDate;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
 
-    @OneToMany(mappedBy = "coupon", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "coupon", cascade = CascadeType.ALL, orphanRemoval = false)
     private List<CouponHistory> couponHistories;
+
+    @OneToMany(mappedBy = "coupon", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Product> products;
 }
